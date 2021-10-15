@@ -26,6 +26,25 @@
                   "ContentTag"
                 ]
 				}
+            },
+	      {
+              "id": "APISec31" ,
+			  "name": "Unsecured Endpoint",
+			   "fullDescription": {
+                "text": "The 'Unsecured Endpoint' scanning identifies vulnerabilities resulting from the non-protected endpoints. These endpoints requires no authentication scheme and are open for both authenticated and non-authenticated requests."
+              },
+			   "helpUri": "https://groups.google.com/d/msg/ruby-security-ann/8B2iV2tPRSE/JkjCJkSoCgAJ",
+			   "help": {
+                "text": "More info: https://groups.google.com/d/msg/ruby-security-ann/8B2iV2tPRSE/JkjCJkSoCgAJ.",
+                "markdown": "[More info](https://groups.google.com/d/msg/ruby-security-ann/8B2iV2tPRSE/JkjCJkSoCgAJ)."
+              },
+              "properties" : {
+               "problem.severity" : "error",
+               "security-severity" : "9.8",
+			    "tags": [
+                  "ContentTag"
+                ]
+				}
             }
           ]
         }
@@ -33,6 +52,22 @@
       "results": [
         {
           "ruleId": "APISec30",
+          "message": {
+            "text": "APISec found issues that meet or exceed your failure thershold"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "none"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+	     {
+          "ruleId": "APISec31",
           "message": {
             "text": "APISec found issues that meet or exceed your failure thershold"
           },
