@@ -65,8 +65,10 @@
                   "startLine": 1
                 }
               }
-            },
-	     {
+            }
+			 ]
+		},
+	    {
           "ruleId": "APISec31",
           "message": {
             "text": "APISec found issues that meet or exceed your failure thershold"
